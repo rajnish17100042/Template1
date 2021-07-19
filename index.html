@@ -1,13 +1,756 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>MiApp - Minimal App Landing Template</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MI APP</title>
 </head>
+
+<body onload="myFunction()">
+
+    <div id="loader">
+        <img src="img/loader.gif">
+    </div>
+
+    <div style="display:none;" id="myDiv">
+
+        <!--==================================================================
+                intro section
+            ==================================================================-->
+
+
+        <section id="intro">
+
+            <img src='img/phone1.png' alt="phone">
+
+
+
+            <div class='intro-text'>
+                <h1>
+                    Mi App
+                </h1>
+                <p>
+                    This is the coolest app you've ever seen, the amazing and great app made with love just for you
+                </p>
+
+                <a href='#' class='app-btn'>
+                    <img src='img/appstore.png' alt>
+                </a>
+                <a href='#' class='app-btn'>
+                    <img src='img/googleplay.png' alt>
+                </a>
+
+
+            </div>
+
+        </section>
+
+
+        <!--feature 1 -->
+
+
+        <section id="feature1">
+            <img src='img/phone2.png' alt>
+
+            <div class='features-text'>
+                <h2>An App That You'll Love</h2>
+                <p>
+                    This app has a lot of cool features, you'll love them all. Lorem ipsum dolor sit amet is simply a dummy text used by lazy
+                    guys.
+                </p>
+            </div>
+
+            <div class='row features-row'>
+                <div class='col-md-4 col-sm-6'>
+                    <div class='feature'>
+                        <div class='icon'>
+                            <i class='ion-ios-heart-outline'></i>
+                        </div>
+                        <div class='content'>
+                            <h4>Made With Love</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta iriure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-4 col-sm-6'>
+                    <div class='feature'>
+                        <div class='icon'>
+                            <i class='ion-ios-loop'></i>
+                        </div>
+                        <div class='content'>
+                            <h4>Regular Updates</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta iriure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-4 col-sm-6'>
+                    <div class='feature'>
+                        <div class='icon'>
+                            <i class='ion-ios-pie-outline'></i>
+                        </div>
+                        <div class='content'>
+                            <h4>Better Reports</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta iriure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--.........    feature 2 ......   -->
+
+        <section id="feature2">
+            <div class="row">
+                <div class='col-md-6'>
+                    <div class="overlap">
+                        <img class='front' src='img/phone-white.png' alt>
+                        <img class='back' src='img/phone-black.png' alt>
+                    </div>
+                </div>
+                <div class='col-md-4'>
+                    <div class='screen-info-text'>
+                        <h2>Simple & Clean</h2>
+                        <p>The best ever app, for you. You're just a moment away from installing this app.</p>
+                        <a href='#' class='btn-minimal'>
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--   feature 3    -->
+
+
+        <section id="feature3">
+            <div class="row">
+                <div class='col-md-6'>
+                    <div class="overlap2">
+                        <img class='back' src='img/phone-black.png' alt>
+                        <img class='front' src='img/phone-white.png' alt>
+
+                    </div>
+                </div>
+
+                <div class='col-md-4'>
+                    <div class="feature3-right">
+                        <div class='screen-info-text'>
+                            <h2>Most Powerful</h2>
+                            <p>The best ever app, for you. You're just a moment away from installing this app.</p>
+                            <a href='#' class='btn-minimal'>
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--   screenshots  -->
+
+        <section id="screenshots">
+            <div class='top-section-header'>
+                <h2>Screenshots</h2>
+                <p>Take a look at the app by its screenshots</p>
+            </div>
+
+            <div class='inner'>
+
+
+                <div class="row">
+                    <div class="column">
+                        <img src="img/screens/1.jpg" alt>
+                    </div>
+                    <div class="column">
+                        <img src="img/screens/2.jpg" alt>
+                    </div>
+                    <div class="column">
+                        <img src="img/screens/3.jpg" alt>
+                    </div>
+                    <div class="column">
+                        <img src="img/screens/4.jpg" alt>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--  feature4   -->
+        <section id="feature4">
+
+            <div class='row'>
+                <div class='col-md-4 features-col text-right'>
+                    <div class='col-feature'>
+                        <div class='icon'>
+                            <i class='ion-ios-heart-outline'></i>
+                        </div>
+                        <div class='content'>
+                            <h4>Beautiful Design</h4>
+                            <p>
+                                Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has.
+                            </p>
+                        </div>
+                    </div>
+                    <div class='col-feature'>
+                        <div class='icon' style="text-align:center;">
+                            <i class='ion-ios-loop'></i>
+                        </div>
+                        <div class='content'>
+                            <h4>Regular Updates</h4>
+                            <p>
+                                Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-4'>
+                    <div class='features-phone'>
+                        <img src='img/phone3.png' alt>
+                    </div>
+                </div>
+                <div class='col-md-4 features-col'>
+                    <div class='col-feature'>
+                        <div class='icon'>
+                            <i class='ion-ios-cart-outline'></i>
+                        </div>
+                        <div class='content'>
+                            <h4>Cart System</h4>
+                            <p>
+                                Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has.
+                            </p>
+                        </div>
+                    </div>
+                    <div class='col-feature'>
+                        <div class='icon'>
+                            <i class='ion-ios-color-wand-outline'></i>
+                        </div>
+                        <div class='content'>
+                            <h4>Magical App</h4>
+                            <p>
+                                Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  video section    -->
+        <section id="video">
+
+            <div class='row'>
+                <div class='col-md-4'>
+                    <div class='col-section-header'>
+                        <h2>Easily embed a cool video for your app</h2>
+                        <p>
+                            No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip et. Ex atqui voluptatibus eum, cu
+                            case intellegebat eum, mea ex regione patrioque signiferumque. Pri ei solet graecis.
+                        </p>
+                    </div>
+                </div>
+                <div class='col-md-8'>
+                    <div class="embed-responsive embed-responsive-16by9">
+
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GIalL5fkhPM?rel=0&amp;showinfo=0" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--   pricing section   -->
+
+        <section id="pricing">
+            <div class="row">
+                <div class='col-md-4'>
+                    <div class='col-section-header'>
+                        <h2>Choose your plan or get started with free trial</h2>
+                        <p>
+                            Semper torquatos est no. cule at discere offendit, cule et fugit iuvaret omittam. Eu sint labore pri, ea probo tollit lobortis
+                            mea. Integre blandit aliquando ei vel, sit eirmod vituperata eu.
+                        </p>
+                        <a href='#' class='btn-minimal'>
+                            Get Free Trial
+                        </a>
+                    </div>
+                </div>
+
+                <div class='col-md-4'>
+                    <ul class="price">
+                        <li class="header">Basic</li>
+                        <li>$ 9.99 / year</li>
+                        <li>10GB Storage</li>
+                        <li>10 Emails</li>
+                        <li>10 Domains</li>
+                        <li>1GB Bandwidth</li>
+                        <li>
+                            <a href='#' class='btn-minimal'>
+                                Sign Up
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='col-md-4'>
+                    <ul class="price">
+                        <li class="header">Pro</li>
+                        <li>$ 24.99 / year</li>
+                        <li>25GB Storage</li>
+                        <li>25 Emails</li>
+                        <li>25 Domains</li>
+                        <li>2GB Bandwidth</li>
+                        <li>
+                            <a href='#' class='btn-minimal'>
+                                Sign Up
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+        <!--  newsletter section  -->
+        <section id="newsletter">
+            <div class="newsletter">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="content">
+                            <h2>SUBSCRIBE TO NEWSLETTER</h2>
+
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your Email">
+
+                                <button class="btn" type="submit">Subscribe</button>
+                            </div>
+
+                            <p class="newsletter-text">Don't worry, we will never sell or share your info</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--  team section   -->
+        <section id="team">
+
+            <div class="row">
+                <div class='col-md-4'>
+                    <div class='col-section-header'>
+                        <h2>Meet the geniuses behind this amazing app</h2>
+                        <p>
+                            No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip et. Ex atqui voluptatibus eum, cu
+                            case intellegebat eum, mea ex regione patrioque signiferumque.
+                        </p>
+                        <a href='#' class='btn-minimal'>
+                            Join Our Team
+                        </a>
+                    </div>
+                </div>
+
+                <div class='col-md-8'>
+                    <div class='team-persons'>
+                        <div class='row'>
+                            <div class='col-md-4'>
+                                <div class='team-member'>
+                                    <img src='img/people1.jpg' alt>
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h4>Jake Doe</h4>
+                                            <p>Founder & CEO</p>
+
+                                            <a href='#'>
+                                                <i class='ion-social-facebook'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-googleplus'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-twitter'></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col-md-4'>
+                                <div class='team-member'>
+                                    <img src='img/people1.jpg' alt>
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h4>Jake Doe</h4>
+                                            <p>Founder & CEO</p>
+
+                                            <a href='#'>
+                                                <i class='ion-social-facebook'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-googleplus'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-twitter'></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col-md-4'>
+                                <div class='team-member'>
+                                    <img src='img/people1.jpg' alt>
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h4>Jake Doe</h4>
+                                            <p>Founder & CEO</p>
+
+                                            <a href='#'>
+                                                <i class='ion-social-facebook'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-googleplus'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-twitter'></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class='row'>
+                            <div class='col-md-4'>
+                                <div class='team-member'>
+                                    <img src='img/people1.jpg' alt>
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h4>Jake Doe</h4>
+                                            <p>Founder & CEO</p>
+
+                                            <a href='#'>
+                                                <i class='ion-social-facebook'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-googleplus'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-twitter'></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col-md-4'>
+                                <div class='team-member'>
+                                    <img src='img/people1.jpg' alt>
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h4>Jake Doe</h4>
+                                            <p>Founder & CEO</p>
+
+                                            <a href='#'>
+                                                <i class='ion-social-facebook'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-googleplus'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-twitter'></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col-md-4'>
+                                <div class='team-member'>
+                                    <img src='img/people1.jpg' alt>
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h4>Jake Doe</h4>
+                                            <p>Founder & CEO</p>
+
+                                            <a href='#'>
+                                                <i class='ion-social-facebook'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-googleplus'></i>
+                                            </a>
+
+                                            <a href='#'>
+                                                <i class='ion-social-twitter'></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!--  clients   -->
+        <section id="clients">
+            <div class='container'>
+                <div class='clients-section-header'>
+                    <h2>Our Clients</h2>
+                    <p>Take a look at our clients and see what they say about us</p>
+                </div>
+                <div class='row'>
+                    <div class='col-md-6'>
+                        <ul class='clients'>
+                            <li>
+                                <img src='img/logo1.png' alt>
+                            </li>
+                            <li>
+                                <img src='img/logo2.png' alt>
+                            </li>
+                            <li>
+                                <img src='img/logo3.png' alt>
+                            </li>
+                            <li>
+                                <img src='img/logo4.png' alt>
+                            </li>
+                            <li>
+                                <img src='img/logo5.png' alt>
+                            </li>
+                            <li>
+                                <img src='img/logo6.png' alt>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class='col-md-6'>
+                        <div class='testimonials-slider'>
+                            <div class='testimonial'>
+                                <div class='icon'>
+                                    <i class='ion-quote'></i>
+                                </div>
+                                <div class='content'>
+                                    <p>
+                                        An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                        Adhuc scripserit et sea, everti liberavisse no sit.
+                                    </p>
+                                </div>
+                                <div class='author'>
+                                    <h4>Michael Doe</h4>
+                                    <span>CEO @ Google</span>
+                                </div>
+                            </div>
+                            <div class='testimonial'>
+                                <div class='icon'>
+                                    <i class='ion-quote'></i>
+                                </div>
+                                <div class='content'>
+                                    <p>
+                                        An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                        Adhuc scripserit et sea, everti liberavisse no sit.
+                                    </p>
+                                </div>
+                                <div class='author'>
+                                    <h4>Michael Doe</h4>
+                                    <span>CEO @ Google</span>
+                                </div>
+                            </div>
+                            <div class='testimonial'>
+                                <div class='icon'>
+                                    <i class='ion-quote'></i>
+                                </div>
+                                <div class='content'>
+                                    <p>
+                                        An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                        Adhuc scripserit et sea, everti liberavisse no sit.
+                                    </p>
+                                </div>
+                                <div class='author'>
+                                    <h4>Michael Doe</h4>
+                                    <span>CEO @ Google</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!--   FAQ section-->
+
+        <section id="faq">
+            <div class='container'>
+                <div class='faq-section-header'>
+                    <h2>FAQ</h2>
+                    <p>Most common questions, answered here</p>
+                </div>
+                <div class="row">
+                    <div class='col-md-6'>
+                        <div class='faq'>
+                            <h4>Why is this so cheap?</h4>
+                            <p>
+                                An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                Adhuc scripserit et sea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class='col-md-6'>
+                        <div class='faq'>
+                            <h4>Why Choose Us?</h4>
+                            <p>
+                                An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                Adhuc scripserit et sea.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class='col-md-6'>
+                        <div class='faq'>
+                            <h4>What will you get?</h4>
+                            <p>
+                                An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                Adhuc scripserit et sea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class='col-md-6'>
+                        <div class='faq'>
+                            <h4>How many days will you get trial?</h4>
+                            <p>
+                                An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                Adhuc scripserit et sea.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class='col-md-6'>
+                        <div class='faq'>
+                            <h4>What can I do with this app?</h4>
+                            <p>
+                                An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                Adhuc scripserit et sea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class='col-md-6'>
+                        <div class='faq'>
+                            <h4>Why is this so cheap?</h4>
+                            <p>
+                                An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est.
+                                Adhuc scripserit et sea.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="download">
+            <div class='container'>
+
+                <div class='download-text'>
+                    <h2>Download App Now</h2>
+                    <p>
+                        Nam reformidans vituperatoribus at. Id nisl diceret maiestatis qui, mel affert doctus te. Ex assum ocurreret eam. Lorem ipsum
+                        dolor sit amet is simply a dummy text.
+                    </p>
+                </div>
+
+                <a href='#' class='app-btn'>
+                    <img src='img/appstore.png' alt>
+                </a>
+                <a href='#' class='app-btn'>
+                    <img src='img/googleplay.png' alt>
+                </a>
+
+            </div>
+        </section>
+
+
+        <section id="contact">
+
+            <div class='container'>
+                <div class='contact-section-header'>
+                    <h2>Contact Us</h2>
+                    <p>Feel free to contact us for any help</p>
+                </div>
+            </div>
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class='col-md-6'>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+
+
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+
+                        <div class='col-md-6'>
+                            <textarea id="message" name="message" placeholder="Message" required></textarea>
+
+                            <input type="submit" class='btn-minimal' value="send message">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class='footer'>
+                <p>Copyright Mi App &copy; 2016. a Noman Ali Samejo Production</p>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <script src='js/script.js'>
+
+        </script>
+
+</body>
+
+</html>
