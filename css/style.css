@@ -5,7 +5,9 @@
 	font-family: Lora, sans-serif;
 }
 
-
+html {
+	scroll-behavior: smooth;
+  }
 
 body{
    background:rgba(240, 240, 240, 1);
@@ -16,6 +18,76 @@ img{
     max-width:100%
 }
 
+
+
+/*   css for menu bar   */
+
+  
+.menu-container {
+	display: inline-block;
+	cursor: pointer;
+	position:fixed;
+	right:0;
+	padding-right:40px;
+	
+  }
+  
+  .bar1, .bar2, .bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.4s;
+  }
+  
+  .change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+
+  #navbar {
+    display: none;
+    
+  }
+  .navbar {
+	margin-left:590px;
+	margin-top:30px;
+	overflow: hidden;
+	background-color: #333;
+	position:fixed;
+	top: 0;
+	right:0;
+	left:0;
+	width:50%;
+	z-index:1;
+	
+  }
+  
+  .navbar a {
+	
+	display: block;
+	color: #f7f4f4d8;
+	text-align: center;
+	padding: 2px;
+	text-decoration: none;
+	font-size: 17px;
+	opacity:0.8;
+  }
+  
+  .navbar a:hover {
+      opacity:1;
+  }
+  
+  
 
 
 /* css for preloader */
@@ -67,11 +139,14 @@ img{
 	font-weight:300;
 }
 .intro-text > p{
+	
 	font-size:20px;
 	margin:0;
 	color:rgba(0,0,0,.4);
 	padding:5px;
 	margin-bottom:55px;
+
+    
 	
 }
 
