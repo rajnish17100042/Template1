@@ -1,1 +1,1 @@
-Templated created using HTML,CSS,JAVASCRIPT and BOOTSTRAP
+This template is  created using HTML,CSS,JAVASCRIPT and BOOTSTRAP
